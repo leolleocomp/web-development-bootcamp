@@ -1,0 +1,29 @@
+/*h2 color #2c350;*/
+/*date color #3498db*/
+/*font: source sans mono*/
+body {
+	max-width: 700px;
+	width: 80%;
+	margin: auto;
+	border: 20px solid #bdc3c7;
+	padding: 5px 30px;
+	margin-top: 20px;
+	font-family: 'source sans pro';
+	color: #000000;
+}
+
+.article > h1 {
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.article > .date {
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 3px;
+}
+
+.article > h1 + p {
+	border-left: 3px solid #bdc3c7;
+	padding-left: 10px;
+}
