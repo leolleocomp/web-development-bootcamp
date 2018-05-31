@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click me!</title>
+</head>
+<body>
+	<button>CLICK ME</button>
+	<script type="text/javascript">
+		var button = document.querySelector("button");
+		var colors = [  "white", "purple" ];
+		var currentColor = 0;
+
+		button.addEventListener("click", function() {
+			ducument.body.style.background = colors[++currentColor % colors.length];
+		})
+	</script>
+</body>
+</html>
